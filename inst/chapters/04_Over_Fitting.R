@@ -86,6 +86,7 @@ svmFit <- train(Class ~ .,
                 trControl = trainControl(method = "repeatedcv", 
                                          repeats = 5,
                                          classProbs = TRUE))
+
 ## classProbs = TRUE was added since the text was written
 
 ## Print the results
