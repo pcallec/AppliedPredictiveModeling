@@ -31,7 +31,7 @@
 ################################################################################
 ### Section 16.1 Case Study: Predicting Caravan Policy Ownership
 
-library(DWD)
+library(rdwd)
 data(ticdata)
 
 ### Some of the predictor names and levels have characters that would results in
